@@ -1,12 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './assets/css/index.css'
+import './assets/css/App.css'
+import App from './App'
+import reportWebVitals from './reportWebVitals'
+
+import { ConfigProvider } from "antd"
+import frFR from 'antd/lib/locale/es_ES'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <ConfigProvider locale={frFR}>
+        <App />
+      </ConfigProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
