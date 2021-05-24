@@ -33,7 +33,7 @@ const Login = () => {
                 style={styles.card} hoverable
                 title={<>
                     <BuildOutlined style={styles.icon} />
-                    BRAMADERO</>}
+                    LUMAHUE</>}
                 extra={'smart hydro v2.0'}
             >
                 <Row>

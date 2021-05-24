@@ -6,7 +6,7 @@ const BASE_URL = "https://api.tago.io/data"
 export const INSTANCE = axios.create({
       'baseURL': BASE_URL,
           headers: {
-              Authorization: '1333aa6c-6a3f-46d0-ab94-6359c6b0cdf3'
+              Authorization: '81416e29-0f0f-4498-af83-ac25265d15c3'
           }
 })
 
